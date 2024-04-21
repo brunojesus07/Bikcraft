@@ -3,7 +3,7 @@ body {
   margin: 0px;
   display: grid;
   justify-items: center;
-  margin-top: 60px;
+  margin-top: 40px;
   background-color: #f7f7f7;
 }
 
@@ -177,6 +177,15 @@ ul li:nth-child(odd) {
   .subtitulo {
     font-size: 2.9rem;
   }
+  .cover img {
+    width: 80%;
+    margin-left: auto ;
+    margin-right: auto;
+  }
+  .nav {
+    margin-top: 30px;
+  }
+
 }
 
 @media (max-width: 400px) {
@@ -185,6 +194,11 @@ ul li:nth-child(odd) {
   }
   p {
     font-size: 1rem;
+  }
+  .cover img {
+    width: 70%;
+    margin-left: auto ;
+    margin-right: auto;
   }
 }
 
